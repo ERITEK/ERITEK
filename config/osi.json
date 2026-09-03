@@ -1,0 +1,21 @@
+{
+  "domain": [2, 3, 4, 5, 6, 7],
+  "layers": [
+    { "level": 7, "name": "APPLICATION",  "protocols": "HTTP · DNS · gRPC · API · SSH" },
+    { "level": 6, "name": "PRESENTATION","protocols": "TLS · Protobuf · JSON · Encoding" },
+    { "level": 5, "name": "SESSION",     "protocols": "TLS · Sessions · RPC · Streams" },
+    { "level": 4, "name": "TRANSPORT",   "protocols": "TCP · UDP · QUIC · NAT · Sockets" },
+    { "level": 3, "name": "NETWORK",     "protocols": "IP · BGP · OSPF · Netfilter · WireGuard · Routing" },
+    { "level": 2, "name": "DATA LINK",   "protocols": "Ethernet · ARP · VLAN · MAC · Bridge · STP" },
+    { "level": 1, "name": "PHYSICAL",    "protocols": "PHY · Optics · Copper · Signals · Media" }
+  ],
+  "palette": {
+    "bg": "#0A0C10",
+    "bone": "#E6E1D0",
+    "muted": "#8A8577",
+    "terminal_green": "#33FF66",
+    "warp_purple": "#C77DFF",
+    "teal": "#2ED1C0",
+    "brass": "#C8A24A"
+  }
+}
